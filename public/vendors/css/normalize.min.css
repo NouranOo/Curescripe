@@ -1,0 +1,238 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+body{
+    position: relative;
+}
+
+#animatedModal,#animatedModal2{
+    background-color: rgba(0,0,0,0.4) !important;
+    
+    
+    
+}
+
+.popup-container{
+    width: 570px;
+    height: 476px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    font-family: "Helvetica Neue";
+    overflow: scroll;
+     
+    
+}
+.book .popup-container ,.unbook .popup-container{
+    width: 651px;
+    height: 381px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    font-family: "Helvetica Neue";
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.popup-header{
+    border-bottom: 1px solid #eee;
+    color: #4a4d66;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+}
+.popup-container .btn{
+    width: 61px !important;
+    height: 25px !important;
+    
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500px;
+}
+.popup-container .btn:hover{
+    color: white;
+}
+.popup-buttons{
+    float: right;
+}
+.popup-container .close-animatedModal,.popup-container .close-animatedModal2{
+background-color: #abb8c9;
+    font-weight: bold;
+}
+.popup-container #save-button{
+    background-color: #2bb798;
+}
+.role-permessions h6{
+    font-size: 12px;
+     margin-bottom: 6px;
+
+    
+}
+.role-permessions ul{
+    list-style: none;
+    padding-left: 3px;
+}
+.role-permessions ul li span{
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    height: 13px;
+    font-family: HelveticaNeue-Medium;
+}
+.role-permessions ul li{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.popup-container .form-control:focus,.popup-container .custom-select:focus {
+  border-color: #2bb798;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.popup-container .form-control:focus label,.popup-container .custom-select:focus label{
+    color: #2bb798
+}
+.popup-container .form-control{
+    height: 30px;
+}
+.popup-container .custom-select{
+    height: 30px !important;
+    font-size: 10px;
+    width: 532px !important;
+}
+.popup-container label{
+    font-size: 12px;
+    font-weight: 700;
+}
+.popup-container .form-control{
+    width: 256px;
+}
+.popup-container .custom-select{
+    width: 100% !important;
+}
+.popup-container select option{
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+ #password + .glyphicon {
+   cursor: pointer;
+   pointer-events: all;
+ }
+
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 10px;
+    font-weight: 500 !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+    
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  background-color: #eee;
+  border-radius:3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #2BB798;
+}
+label :checked  {
+		color:#2BB798 !important; 
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.book .btn{
+    background-color: #2BB798;
+    color: white;
+    width: 161px !important;
+    height: 45px !important;
+    display: block;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.unbook .btn{
+    background-color: #7C85B1;
+    color: white;
+    width: 161px !important;
+    height: 45px !important;
+    display: block;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+.book #animatedModal .popup-container .container{
+    position: relative;
+}
+.empy{
+    height: 17%;
+}

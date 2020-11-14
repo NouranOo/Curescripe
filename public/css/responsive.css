@@ -1,0 +1,288 @@
+@media only screen and (max-width:767px){
+	.col-sm-3,.col-sm-6,.col-sm-4{
+		margin-top: 10px;
+	}
+	.big-square{
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width:1200px){
+	.first-squares{
+		margin-top: 30px !important;
+	}
+}
+
+@media (max-width: 1000px) {
+    
+    .navbar-default .btn-light {
+        display: block;
+        width: 100%;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: -8px -2px 0 !important;
+        line-height: 1 !important;
+    }
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .header_style_01 {
+        background-color: #1f1f1f;
+        display: block;
+        left: 0;
+        padding: 20px 40px !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 111;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #1f1f1f;
+        color: #fff !important;
+        background-color: #1f1f1f !important;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .affix-top {
+        overflow: hidden;
+        visibility: visible;
+        opacity: 1;
+        top: 0 !important;
+    }
+    .header_style_01 .navbar-default .navbar-nav > li a {
+        padding: 10px 5px;
+    }
+    .first-section .col-md-6 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+   
+    .first-section {
+        padding: 8em 0 6em !important;
+    }
+    .first-section h2 {
+        font-size: 32px;
+    }
+	body.dashboard #sidebar-wrapper{
+		border-right: none;
+	}
+	body.dashboard .container-fluid{
+		padding: 0px;
+	}
+	body.dashboard .dev-list .widget{
+		padding: 20px;
+	}
+	body.dashboard .first-section h2 strong, body.dashboard .first-section h2{
+		font-size: 24px;
+	}
+	.cac h3{
+		padding: 30px 0;
+	}
+	.about-tab .nav-tabs{
+		padding: 20px 0px;
+	}
+	.about-tab .nav-tabs > li a{
+		font-size: 12px;
+	}
+	.big-tagline{
+		padding: 10px 15px;
+	}
+	.all-page-bar .title{
+		padding: 120px 0 60px 0;
+	}
+	.all-page-bar .title h1{
+		font-size: 30px;
+	}
+	body.dashboard .service-wrap h4{
+		clear: both;
+		margin-top: 20px;
+		display: inline-block;
+		font-size: 18px;
+	}
+	body.dashboard #wrapper.toggled .menuopener.fixed-menu{
+		position: fixed;
+		margin-left: 260px;
+	}
+	body.dashboard  .menuopener.fixed-menu{
+		position: fixed;
+		-ms-animation-name: fadeInDown;
+		-moz-animation-name: fadeInDown;
+		-op-animation-name: fadeInDown;
+		-webkit-animation-name: fadeInDown;
+		animation-name: fadeInDown;
+		-ms-animation-duration: 500ms;
+		-moz-animation-duration: 500ms;
+		-op-animation-duration: 500ms;
+		-webkit-animation-duration: 500ms;
+		animation-duration: 500ms;
+		-ms-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+		-op-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-ms-animation-iteration-count: 1;
+		-moz-animation-iteration-count: 1;
+		-op-animation-iteration-count: 1;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+	}
+}
+
+@media (max-width: 600px) {
+    body.host_version .btn-light,
+    body.app_version .btn-light {
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        text-align: center;
+        width: 40% !important;
+    }
+    body.app_version .btn-light i {
+        display: none !important;
+    }
+    .copyrights {
+        padding: 40px 10px;
+    }
+    .footer-distributed {
+        padding: 0;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .section-title h3 {
+        font-size: 28px;
+    }
+    .portfolio-filter ul li .btn-dark {
+        border: 0 !important;
+        width: 100%;
+        display: block;
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+    .portfolio-filter ul li {
+        border-radius: 0;
+        padding: 1px;
+        display: inline-block;
+        margin: 0 1px 2px 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #ededed;
+        vertical-align: middle;
+        width: 49%;
+        float: left;
+        border: 0 solid #ededed;
+    }
+	body.dashboard #sidebar-wrapper{
+		border-right: none;
+	}
+	body.dashboard .container-fluid{
+		padding: 0px;
+	}
+	body.dashboard .dev-list .widget{
+		padding: 20px;
+	}
+	.footer-social{
+		padding: 0 15px;
+	}
+	.message-box h2{
+		font-size: 24px;
+	}
+	body.dashboard .first-section h2 strong, body.dashboard .first-section h2{
+		font-size: 24px;
+	}
+	.cac h3{
+		padding: 30px 0;
+	}
+	.about-tab .nav-tabs{
+		padding: 20px 0px;
+	}
+	.about-tab .nav-tabs > li a{
+		font-size: 12px;
+	}
+	.big-tagline{
+		padding: 10px 15px;
+	}
+	.all-page-bar .title{
+		padding: 120px 0 60px 0;
+	}
+	.all-page-bar .title h1{
+		font-size: 30px;
+	}
+	body.dashboard .service-wrap h4{
+		clear: both;
+		margin-top: 20px;
+		display: inline-block;
+		font-size: 18px;
+	}
+	body.dashboard #wrapper.toggled .menuopener.fixed-menu{
+		position: fixed;
+		margin-left: 260px;
+	}
+	body.dashboard  .menuopener.fixed-menu{
+		position: fixed;
+		-ms-animation-name: fadeInDown;
+		-moz-animation-name: fadeInDown;
+		-op-animation-name: fadeInDown;
+		-webkit-animation-name: fadeInDown;
+		animation-name: fadeInDown;
+		-ms-animation-duration: 500ms;
+		-moz-animation-duration: 500ms;
+		-op-animation-duration: 500ms;
+		-webkit-animation-duration: 500ms;
+		animation-duration: 500ms;
+		-ms-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+		-op-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-ms-animation-iteration-count: 1;
+		-moz-animation-iteration-count: 1;
+		-op-animation-iteration-count: 1;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+	}
+	
+}
